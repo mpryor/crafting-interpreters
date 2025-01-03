@@ -1,2 +1,2 @@
 # crafting-interpreters
-Following along with https://craftinginterpreters.com/
+Learning how to craft interpreters, by following along with https://craftinginterpreters.com/
