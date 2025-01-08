@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "LinkedList.h"
+#include "linked_list.h"
 
 int main() {
     Node* list = malloc(sizeof(Node));

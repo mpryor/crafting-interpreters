@@ -10,10 +10,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 set(
         SOURCES
         "src/main.c"
+        "src/linked_list.c"
 )
 set(
     HEADERS
-    "src/LinkedList.h"
+    "src/linked_list.h"
 )
 
 include_directories(  ${CMAKE_SOURCE_DIR}/ext/log_c/src)

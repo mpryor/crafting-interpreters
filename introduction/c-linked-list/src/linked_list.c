@@ -1,12 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-typedef struct Node {
-    struct Node* next;
-    struct Node* prev;
-    char* data;
-} Node;
+#include "linked_list.h"
 
 void print_list(Node* list) {
     while(list != NULL) {
